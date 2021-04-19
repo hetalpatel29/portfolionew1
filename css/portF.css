@@ -1,0 +1,565 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bgblack {
+    background-color: black;
+}
+
+.bglightpink {
+    background-color: white;
+}
+
+.bg_skyblue {
+    color: navy;
+}
+
+.bg_red {
+    color: red;
+}
+
+.bg_white {
+    color: lemonchiffon;
+}
+
+.bg_powderedblue {
+    color: lightseagreen;
+}
+
+.bg_blue {
+    color: lightskyblue;
+}
+
+
+/* profile content */
+
+.profilebar {
+    height: 100vh;
+    width: 20%;
+    position: fixed;
+    background-color: black;
+    background-size: cover;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.profileimage {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin: 20px 20px;
+    border: 5px solid teal;
+}
+
+.profileimage:hover {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+}
+
+.profilebar h3 {
+    height: 20px;
+    width: 50p;
+    margin: 20px 20px;
+}
+
+.social {
+    width: 100%;
+    margin-left: 5px;
+}
+
+.socialicons {
+    font-size: 30px;
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px 5px;
+    margin-top: 10px;
+    clear: both;
+}
+
+.socialicons:hover {
+    color: cornflowerblue;
+    transition: 1s;
+}
+
+.profilebar nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.profilebar nav ul li {
+    position: relative;
+    width: 80%;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    text-align: left;
+}
+
+.profilebar nav ul li ::before {
+    position: absolute;
+    content: '';
+    margin: auto;
+    margin-bottom: 10px;
+    width: 70%;
+    height: 50px;
+    left: -100%;
+    margin-left: 20px;
+    padding-right: 10px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.profilebar nav ul li:hover {
+    color: white;
+}
+
+.profilebar nav ul li a:hover::before {
+    color: black;
+    left: 0;
+}
+
+.profilebar nav ul li a {
+    overflow: hidden;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding-top: 20px;
+    vertical-align: middle;
+}
+
+.menuicons {
+    color: red;
+    font-size: 100px;
+    clear: both;
+}
+
+
+/* profile content */
+
+
+/*profile content bar */
+
+.content {
+    width: 80%;
+    float: right;
+}
+
+.frontpage {
+    width: 100%;
+    height: 100vh;
+    float: right;
+    background-position: center;
+    background-image: url(../image/IMG_20191223_111925.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.frontpage h1 {
+    position: absolute;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.027);
+    font-size: 70px;
+    top: 45%;
+    font-family: 'Abril Fatface', cursive;
+    right: 0px;
+}
+
+.frontpage:hover h1 {
+    color: violet;
+    text-shadow: 10px 5px 5px black;
+    transition: s;
+}
+
+.heading {
+    position: relative;
+    height: 50px;
+    color: mediumvioletred;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 0px;
+    vertical-align: middle;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+.heading::before {
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 80%;
+    left: -100%;
+    transition: 1s;
+}
+
+.heading:hover::before {
+    background-color: rgba(144, 238, 144, 0.199);
+    color: olivedrab;
+    left: 10%;
+    text-align: center;
+    margin: auto;
+}
+
+.heading::after {
+    content: '';
+    height: 50px;
+    width: 80%;
+    border: 2px ridge red;
+    position: absolute;
+    box-sizing: border-box;
+    left: -100%;
+    transition: 1s;
+}
+
+.heading:hover::after {
+    border: 5px double darkolivegreen;
+    left: 10%;
+}
+
+
+/* .heading:hover {
+    color: cornsilk;
+    transition: 1s;
+} */
+
+
+/* aboutme bar */
+
+.personaldetail {
+    width: 100%;
+    float: right;
+}
+
+.personalinfo {
+    width: 80%;
+    background-color: blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profileinfomainbox {
+    width: 33.333%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.profileinfosubbox {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 10px;
+}
+
+.personaldetail img {
+    width: 80%;
+    height: 200px;
+    border: 5px dashed darkslategrey;
+}
+
+.personalintro {
+    width: 100%;
+}
+
+.introduction {
+    text-align: justify;
+    color: darkslategrey;
+    font-size: 19px;
+    margin: 10px;
+}
+
+
+/* aboutme section  end*/
+
+
+/* myskill Section */
+
+.myskill {
+    width: 100%;
+    float: right;
+}
+
+.myskilllanguages {
+    width: 50%;
+    height: 250px;
+    float: left;
+    position: static;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.languages {
+    position: relative;
+    height: 10px;
+    width: 300PX;
+    background-color: lightgray;
+    margin-left: 30PX;
+    overflow: hidden;
+}
+
+.languages::before {
+    content: '';
+    position: absolute;
+    background-color: rgb(111, 13, 156);
+    height: 10px;
+    width: 300PX;
+    left: -20%;
+}
+
+.myskilllanguages h5 {
+    height: 20px;
+    width: 150px;
+    color: darkslategrey;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-left: 30PX;
+}
+
+
+/* myskill section end*/
+
+
+/* edducation section */
+
+.educatoion {
+    width: 100%;
+    float: left;
+}
+
+.bachelors {
+    width: 80%;
+    margin: 40px 20px 60px 80px;
+    border: 2px solid olivedrab;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.bachelors p {
+    color: darkslategrey;
+    text-align: left;
+    padding: 10px 10px 10px;
+    font-size: 20px;
+}
+
+
+/* edducation section end */
+
+
+/* portfolio section */
+
+.portfolio {
+    width: 100%;
+    float: left;
+}
+
+.menu {
+    width: 80%;
+    background-color: teal;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.menu nav {
+    text-align: center;
+}
+
+.menu nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu nav ul li {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu nav ul li a {
+    text-align: left;
+    padding-left: 5px;
+    float: left;
+    text-decoration: none;
+    margin: 10px 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.template {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imagebox {
+    width: 33.333%;
+    float: left;
+    /* background-color: blueviolet; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.imagesubbox {
+    position: relative;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.viewbar {
+    position: absolute;
+    top: -100%;
+    width: 95%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.158);
+    box-sizing: border-box;
+}
+
+.viewbar h6 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 60px;
+    color: orange;
+}
+
+.imagesubbox:hover .viewbar {
+    top: 10px;
+    border-radius: 10px;
+}
+
+.imagesubbox img {
+    width: 100%;
+    height: 200px;
+}
+
+
+/* portfolio section end */
+
+
+/* contect section */
+
+.contactsection {
+    width: 100%;
+    float: left;
+}
+
+.contectsectionrow {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contactbox {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 15px;
+}
+
+.contactsubbox {
+    width: 100%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contectsectionrow1 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.inputname {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.inpunamesubbox {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 13px;
+    border: 2px solid blue;
+}
+
+.inputsubject {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.inputsubjectsubbox {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 13px;
+    border: 2px solid blue;
+}
+
+.inputmassage {
+    width: 100%;
+    font-size: 13px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+}
+
+.inputbutton {
+    width: 100%;
+    font-size: 13px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    text-align: center;
+}
+
+.submitbutton {
+    height: 40px;
+    width: 120px;
+    color: white;
+    margin: auto;
+}
+
+.address {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: darkslategrey;
+    background-color: whitesmoke;
+}
+
+.googlemap {
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.googlemap img {
+    height: 300px;
+    width: 100%;
+}
+
+
+/* contect section end */
+
+@media screen and (max-width:426px) {
+    .profilebar {
+        width: 100%;
+    }
+    .frontpage {
+        display: none;
+    }
+}
